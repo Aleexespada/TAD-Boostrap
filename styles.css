@@ -1,0 +1,11 @@
+header, nav, footer, .bg--primary {
+    background-color: #588b8b !important;
+}
+
+.dropdown-item:hover {
+    color: black !important;
+}
+
+.bg--secondary {
+    background-color: #f28f3b !important;
+}

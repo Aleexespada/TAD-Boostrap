@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Título de la página</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -25,32 +23,31 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand">Brand</a>
+                <a href="#" class="navbar-brand text-white">Delicias de la Cocina</a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="#" class="nav-item nav-link active">Home</a>
                         <div class="dropdown">
-                          <a class="nav-item nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a class="nav-item nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Recetas
                           </a>
                         
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <ul class="dropdown-menu bg--primary">
+                            <li><a class="dropdown-item text-white" href="#">Cuchareo</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Snacks</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Fitness</a></li>
                           </ul>
                         </div>
                     </div>
                     <div class="navbar-nav">
-                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <a type="button" class="nav-item nav-link text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Login
-                      </button>
-                        <a href="#" class="nav-item nav-link">Perfil</a>
+                      </a>
+                      <a href="#" class="nav-item nav-link text-white">Perfil</a>
                     </div>
                 </div>
             </div>
@@ -163,14 +160,11 @@
 
 
     <!-- Footer -->
-    <footer class="text-center text-lg-start text-white" style="background-color: #45526e">
+    <footer class="text-center text-lg-start text-white">
     
       <div class="container p-4 pb-0">
-        <!-- Section: Links -->
         <section class="">
-          <!--Grid row-->
           <div class="row">
-            <!-- Grid column -->
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">
                 Company name
@@ -181,11 +175,9 @@
                 elit.
               </p>
             </div>
-            <!-- Grid column -->
   
             <hr class="w-100 clearfix d-md-none" />
   
-            <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">
                 LINKS &Uacute;TILES
@@ -215,9 +207,9 @@
             <div class="col-md-7 col-lg-8 text-center text-md-start">
               <div class="p-3">
                 © 2023 Copyright:
-                <a class="text-white" href="https://mdbootstrap.com/"
-                   >MDBootstrap.com</a
-                  >
+                <a class="text-white" href="https://mdbootstrap.com/">
+                  MDBootstrap.com
+                </a>
               </div>
             </div>
   
@@ -252,7 +244,7 @@
 
         </div>
         <div class="modal-footer d-flex justify-content-center">
-          <button type="button" class="btn btn-primary" style="width: 100%;">Login</button>
+          <button type="button" class="btn bg--secondary" style="width: 100%;">Login</button>
         </div>
       </div>
     </div>

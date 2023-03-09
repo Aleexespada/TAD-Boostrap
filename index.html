@@ -2,236 +2,293 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Título de la página</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Título de la página</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand text-white">Delicias de la Cocina</a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav">
-                        <div class="dropdown">
-                          <a class="nav-item nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Recetas
-                          </a>
-                        
-                          <ul class="dropdown-menu bg--primary">
-                            <li><a class="dropdown-item text-white" href="#">Cuchareo</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Snacks</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Fitness</a></li>
-                          </ul>
-                        </div>
-                    </div>
-                    <div class="navbar-nav">
-                      <a type="button" class="nav-item nav-link text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Login
-                      </a>
-                      <a href="#" class="nav-item nav-link text-white">Perfil</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 
-    <main class="min-vh-100">
-        <section>
-            <!-- CAROUSEL -->
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="position-relative">
-                        <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
-                        <button class="btn btn-outline-light position-absolute top-50 start-50 translate-middle px-4 py-2">Ver más</button>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="position-relative">
-                        <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
-                        <button class="btn btn-outline-light position-absolute top-50 start-50 translate-middle px-4 py-2">Ver más</button>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="position-relative">
-                        <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
-                        <button class="btn btn-outline-light position-absolute top-50 start-50 translate-middle px-4 py-2">Ver más</button>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            <!-- ESPACIO BLANCO -->
-            <div class="h-100" style="height: 100px;">HOLA</div>
-            <!-- CAROUSEL -->
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="position-relative">
-                        <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
-                        <button class="btn btn-outline-light position-absolute top-50 start-50 translate-middle px-4 py-2">Ver más</button>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="position-relative">
-                        <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
-                        <button class="btn btn-outline-light position-absolute top-50 start-50 translate-middle px-4 py-2">Ver más</button>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="position-relative">
-                        <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
-                        <button class="btn btn-outline-light position-absolute top-50 start-50 translate-middle px-4 py-2">Ver más</button>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            <!-- ESPACIO BLANCO -->
-            <div class="h-100"></div>
-            <!-- CAROUSEL -->
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="position-relative">
-                        <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
-                        <button class="btn btn-outline-light position-absolute top-50 start-50 translate-middle px-4 py-2">Ver más</button>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="position-relative">
-                        <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
-                        <button class="btn btn-outline-light position-absolute top-50 start-50 translate-middle px-4 py-2">Ver más</button>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="position-relative">
-                        <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
-                        <button class="btn btn-outline-light position-absolute top-50 start-50 translate-middle px-4 py-2">Ver más</button>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
-    </main>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand text-white">Delicias de la Cocina</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+          <div class="navbar-nav">
+            <div class="dropdown">
+              <a class="nav-item nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Recetas
+              </a>
 
-
-
-
-    <!-- Footer -->
-    <footer class="text-center text-lg-start text-white">
-    
-      <div class="container p-4 pb-0">
-        <section class="">
-          <div class="row">
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">
-                Company name
-              </h6>
-              <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
-            </div>
-  
-            <hr class="w-100 clearfix d-md-none" />
-  
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">
-                LINKS &Uacute;TILES
-              </h6>
-              <p>
-                <a class="text-white">Contact us</a>
-              </p>
-              <p>
-                <a class="text-white">Cookies</a>
-              </p>
-            </div>
-  
-            <hr class="w-100 clearfix d-md-none" />
-  
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-              <p><i class="bi bi-envelope"></i> aeesppin@alu.upo.es</p>
-              <p><i class="bi bi-telephone"></i> +34 12345678</p>
+              <ul class="dropdown-menu bg--primary">
+                <li><a class="dropdown-item text-white" href="./recipes/cocidos.html">Cocidos</a></li>
+                <li><a class="dropdown-item text-white" href="./recipes/snacks.html">Snacks</a></li>
+                <li><a class="dropdown-item text-white" href="./recipes/fitness.html">Fitness</a></li>
+              </ul>
             </div>
           </div>
-        </section>
-  
-        <hr class="my-3">
-  
-        <section class="p-3 pt-0">
-          <div class="row d-flex align-items-center">
-            <div class="col-md-7 col-lg-8 text-center text-md-start">
-              <div class="p-3">
-                © 2023 Copyright:
-                <a class="text-white" href="https://mdbootstrap.com/">
-                  MDBootstrap.com
-                </a>
+          <div class="navbar-nav">
+            <a type="button" class="nav-item nav-link text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Login
+            </a>
+            <a href="./pages/profile.html" class="nav-item nav-link text-white">Perfil</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- MAIN -->
+  <main class="min-vh-100">
+
+    <section class="position-relative d-flex justify-content-center align-items-center section-1"
+      style="background-image: url(&quot;https://images.unsplash.com/photo-1542010589005-d1eacc3918f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwyNjI5NjF8MHwxfHNlYXJjaHwxNXx8Zm9vZCUyMHJlY2lwZXN8ZW58MHx8fHwxNjc4Mzc2NjUw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&quot;); background-position: center center; background-size: cover;">
+      <div class="w-100 h-100 position-absolute" style="background-color: rgba(0, 0, 0, 0.7);"></div>
+      <div class="position-relative container mx-auto px-6 z-10 py-12">
+        <div class="mw-50 text-left ml-0 mr-auto introduccion">
+          <h2 class="mb-4 text-white">
+            Recetas deliciosas desde Sevilla
+          </h2>
+          <p class="text-white">
+            te invitamos a viajar a través de los sabores más auténticos y deliciosos de nuestra tierra, donde cada
+            plato es una experiencia culinaria única que te llevará a conocer la esencia de nuestra cultura
+            gastronómica, ofreciéndote una selección de recetas tradicionales y creativas, elaboradas con los mejores
+            ingredientes y una pizca de amor, para que puedas disfrutar de la verdadera esencia de Sevilla en cada
+            bocado
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="mt-5 mb-5">
+      <div class="container">
+        <h2 class="mb-4 text-center h1">Recetas</h2>
+        <div class="row mt-3">
+          <figure class="col-md-4 mb-0">
+            <!-- CAROUSEL -->
+            <div class="container-carousel mb-3">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="position-relative">
+                      <img src="./img/fabada.jpg" alt="Plato de fabada" class="w-100">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="position-relative">
+                      <img src="./img/habas-con-jamon.jpg" alt="Plato de habas con jam&oacute;n" class="w-100">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="position-relative">
+                      <img src="./img/lentejas.jpg" alt="Plato de lentejas" class="w-100">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
-  
-          </div>
-        </section>
+            <figcaption class="text-center">
+              <h5>Cocidos</h5>
+              <p>Los cocidos son una verdadera muestra de la riqueza gastronómica de España, con sus sabores auténticos
+                y sus ingredientes tradicionales que hacen de cada plato una experiencia única y reconfortante.</p>
+            </figcaption>
+          </figure>
+          <figure class="col-md-4 mb-0">
+            <!-- CAROUSEL -->
+            <div class="container-carousel mb-3">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="position-relative">
+                      <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="position-relative">
+                      <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="position-relative">
+                      <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <figcaption class="text-center">
+              <h5>Snacks</h5>
+              <p>Los snacks son como pequeñas dosis de felicidad que podemos disfrutar en cualquier momento del día,
+                aportándonos energía y sabor para seguir adelante con nuestras actividades diarias.</p>
+            </figcaption>
+          </figure>
+          <figure class="col-md-4 mb-0">
+            <!-- CAROUSEL -->
+            <div class="container-carousel mb-3">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="position-relative">
+                      <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="position-relative">
+                      <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="position-relative">
+                      <img src="./img/Recetas-faciles.webp" alt="Descripción de la imagen" class="w-100">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <figcaption class="text-center">
+              <h5>Fitness</h5>
+              <p>La comida fitness no solo se trata de comer sano, sino de elegir alimentos nutritivos y balanceados que
+                nos ayuden a alcanzar nuestros objetivos de bienestar físico y mental, mientras disfrutamos de sabores
+                deliciosos y variados en nuestra dieta diaria.</p>
+            </figcaption>
+          </figure>
+        </div>
+
       </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <a class="btn bg--secondary" href="./recipes/cocidos.html">Ver m&aacute;s</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <button class="btn bg--secondary" href="./recipes/snacks.html">Ver m&aacute;s</button>
+          </div>
+          <div class="col-md-4 text-center">
+            <button class="btn bg--secondary" href="./recipes/fitness.html">Ver m&aacute;s</button>
+          </div>
+        </div>
 
-    </footer>
+      </div>
+    </section>
 
 
 
+  </main>
 
 
-    <!-- Modal -->
+  <!-- FOOTER -->
+  <footer class="text-center text-lg-start text-white">
+
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Delicias de la Cocina
+            </h6>
+            <p>
+              Nos dedicada a la cocina y gastronomía, y aquí ofrecemos a los usuarios un lugar donde encontrar una
+              amplia variedad de recetas y consejos para preparar deliciosos platos y postres en casa.
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              LINKS &Uacute;TILES
+            </h6>
+            <p>
+              <a class="text-white" href="./pages/contact-us.html">Contact us</a>
+            </p>
+            <p>
+              <a class="text-white" href="./pages/policies-cookies.html">Cookies</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="bi bi-envelope"></i> aeesppin@alu.upo.es</p>
+            <p><i class="bi bi-telephone"></i> +34 12345678</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-3">
+
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2023 Copyright
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+  </footer>
+
+
+
+  <!-- Login Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header text-center">
-          <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+          <h4 class="modal-title w-100 font-weight-bold">Login</h4>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-          
+
         <div class="modal-body mx-3">
           <div class="mb-3">
             <label for="inputEmail" class="form-label">Email</label>
@@ -249,6 +306,7 @@
       </div>
     </div>
   </div>
+
 </body>
 
 </html>

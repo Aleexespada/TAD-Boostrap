@@ -2,210 +2,200 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Título de la página</title>
-    <link rel="stylesheet" href="./../styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Título de la página</title>
+  <link rel="stylesheet" href="./../styles.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
 
-    <!-- HEADER -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a href="./../index.html" class="navbar-brand text-white">Delicias de la Cocina</a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav">
-                        <div class="dropdown">
-                            <a class="nav-item nav-link dropdown-toggle text-white" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Recetas
-                            </a>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a href="./../index.html" class="navbar-brand text-white">Delicias de la Cocina</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+          <div class="navbar-nav">
+            <div class="dropdown">
+              <a class="nav-item nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Recetas
+              </a>
 
-                            <ul class="dropdown-menu bg--primary">
-                                <li><a class="dropdown-item text-white" href="./../recipes/cocidos.html">Cocidos</a>
-                                </li>
-                                <li><a class="dropdown-item text-white" href="./../recipes//snacks.html">Snacks</a></li>
-                                <li><a class="dropdown-item text-white" href="./../recipes/fitness.html">Fitness</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="navbar-nav">
-                        <a type="button" class="nav-item nav-link text-white" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                            Login
-                        </a>
-                        <a href="./../pages/profile.html" class="nav-item nav-link text-white">Perfil</a>
-                    </div>
-                </div>
+              <ul class="dropdown-menu bg--primary">
+                <li><a class="dropdown-item text-white" href="./../recipes/cocidos.html">Cocidos</a></li>
+                <li><a class="dropdown-item text-white" href="./../recipes/snacks.html">Snacks</a></li>
+                <li><a class="dropdown-item text-white" href="./../recipes/fitness.html">Fitness</a></li>
+              </ul>
             </div>
-        </nav>
-    </header>
-
-    <!-- MAIN -->
-    <main class="min-vh-100">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-3 col-sm-4 col-6 card product">
-                    <img src="./../img/garbanzos-con-pulpo.jpg" alt="Plato de garbanzos con pulto"
-                        class="card-img-top w-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Garbanzos con pulpo</h5>
-                        <p class="card-text">El pulpo es todo un manjar que habitualmente limitamos al tapeo o la típica
-                            receta a la
-                            gallega.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-4 col-6 card product">
-                    <img src="./../img/sopa-de-marisoc.jpg" alt="Plato de sopa de marisco" class="card-img-top w-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Sopa de marisco</h5>
-                        <p class="card-text">Una receta que se prepara en un abrir y cerrar de ojos.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-4 col-6 card product">
-                    <img src="./../img/habas-con-jamon.jpg" alt="Plato de habas con jamon" class="card-img-top w-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Habas con jamón</h5>
-                        <p class="card-text">Receta tradicional de Granada, fácil, muy barata y muy muy rica.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-4 col-6 card product">
-                    <img src="./../img/fabada.jpg" alt="Plato de fabada asturiana" class="card-img-top w-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Fabada</h5>
-                        <p class="card-text">La fabada asturiana es una de las recetas más fáciles del mundo mundial y
-                            con much&iacute;simo
-                            sabor.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-4 col-6 card product">
-                    <img src="./../img/lentejas.jpg" alt="Plato de lentejas estofadas" class="card-img-top w-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Lentejas estofadas</h5>
-                        <p class="card-text">Las lentejas estofadas es nutritivo y saciante, perfecto para una comida
-                            abundante y reconfortante.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-4 col-6 card product">
-                    <img src="./../img/gabanzos-con-bacalao.jpg" alt="Plato de gabanzos con bacalao"
-                        class="card-img-top w-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Garbanzos cn bacalao</h5>
-                        <p class="card-text">Un plato de cuchara reconfortante como pocos, humilde pero llenísimo de
-                            sabor, como un
-                            consomé casero, la vichyssoise caliente o una velouté.</p>
-                    </div>
-                </div>
-
-            </div>
+          </div>
+          <div class="navbar-nav">
+            <a type="button" class="nav-item nav-link text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Login
+            </a>
+            <a href="./../pages/profile.html" class="nav-item nav-link text-white">Perfil</a>
+          </div>
         </div>
+      </div>
+    </nav>
+  </header>
 
-    </main>
+  <!-- MAIN -->
+  <main class="min-vh-100">
+    <div class="container mt-5">
+      <div class="row">
 
+        <a class="col-lg-3 col-sm-4 col-6 card text-decoration-none text-black product" href="./../recipe/garbanzos-con-pulpo.html">
+          <img src="./../img/garbanzos-con-pulpo.jpg" alt="Plato de garbanzos con pulto" class="card-img-top w-100">
+          <div class="card-body">
+            <h5 class="card-title">Garbanzos con pulpo</h5>
+            <p class="card-text">El pulpo es todo un manjar que habitualmente limitamos al tapeo o la típica receta a la
+              gallega.</p>
+          </div>
+        </a>
 
-    <!-- FOOTER -->
-    <footer class="text-center text-lg-start text-white">
+        <a class="col-lg-3 col-sm-4 col-6 card text-decoration-none text-black product">
+          <img src="./../img/sopa-de-marisoc.jpg" alt="Plato de sopa de marisco" class="card-img-top w-100">
+          <div class="card-body">
+            <h5 class="card-title">Sopa de marisco</h5>
+            <p class="card-text">Una receta que se prepara en un abrir y cerrar de ojos.</p>
+          </div>
+        </a>
 
-        <div class="container p-4 pb-0">
-            <section class="">
-                <div class="row">
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">
-                            Delicias de la Cocina
-                        </h6>
-                        <p>
-                            Nos dedicada a la cocina y gastronomía, y aquí ofrecemos a los usuarios un lugar donde
-                            encontrar una
-                            amplia variedad de recetas y consejos para preparar deliciosos platos y postres en casa.
-                        </p>
-                    </div>
+        <a class="col-lg-3 col-sm-4 col-6 card text-decoration-none text-black product">
+          <img src="./../img/habas-con-jamon.jpg" alt="Plato de habas con jamon" class="card-img-top w-100">
+          <div class="card-body">
+            <h5 class="card-title">Habas con jamón</h5>
+            <p class="card-text">Receta tradicional de Granada, fácil, muy barata y muy muy rica.</p>
+          </div>
+        </a>
 
-                    <hr class="w-100 clearfix d-md-none" />
+        <a class="col-lg-3 col-sm-4 col-6 card text-decoration-none text-black product">
+          <img src="./../img/fabada.jpg" alt="Plato de fabada asturiana" class="card-img-top w-100">
+          <div class="card-body">
+            <h5 class="card-title">Fabada</h5>
+            <p class="card-text">La fabada asturiana es una de las recetas más fáciles del mundo mundial y con much&iacute;simo
+              sabor.</p>
+          </div>
+        </a>
 
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">
-                            LINKS &Uacute;TILES
-                        </h6>
-                        <p>
-                            <a class="text-white" href="./../pages/contact-us.html">Contact us</a>
-                        </p>
-                        <p>
-                            <a class="text-white" href="./../pages/policies-cookies.html">Cookies</a>
-                        </p>
-                    </div>
+        <a class="col-lg-3 col-sm-4 col-6 card text-decoration-none text-black product">
+          <img src="./../img/lentejas.jpg" alt="Plato de lentejas estofadas" class="card-img-top w-100">
+          <div class="card-body">
+            <h5 class="card-title">Lentejas estofadas</h5>
+            <p class="card-text">Las lentejas estofadas es nutritivo y saciante, perfecto para una comida abundante y reconfortante.</p>
+          </div>
+        </a>
 
-                    <hr class="w-100 clearfix d-md-none" />
+        <a class="col-lg-3 col-sm-4 col-6 card text-decoration-none text-black product">
+          <img src="./../img/gabanzos-con-bacalao.jpg" alt="Plato de gabanzos con bacalao" class="card-img-top w-100">
+          <div class="card-body">
+            <h5 class="card-title">Garbanzos cn bacalao</h5>
+            <p class="card-text">Un plato de cuchara reconfortante como pocos, humilde pero llenísimo de sabor, como un
+              consomé casero, la vichyssoise caliente o una velouté.</p>
+          </div>
+        </a>
 
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <p><i class="bi bi-envelope"></i> aeesppin@alu.upo.es</p>
-                        <p><i class="bi bi-telephone"></i> +34 12345678</p>
-                    </div>
-                </div>
-            </section>
-
-            <hr class="my-3">
-
-            <section class="p-3 pt-0">
-                <div class="row d-flex align-items-center">
-                    <div class="col-md-7 col-lg-8 text-center text-md-start">
-                        <div class="p-3">
-                            © 2023 Copyright
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-        </div>
-
-    </footer>
-
-
-    <!-- Login Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h4 class="modal-title w-100 font-weight-bold">Login</h4>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-
-                <div class="modal-body mx-3">
-                    <div class="mb-3">
-                        <label for="inputEmail" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail">
-                    </div>
-                    <div class="mb-3">
-                        <label for="inputPassword" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="inputPassword">
-                    </div>
-
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button type="button" class="btn bg--secondary" style="width: 100%;">Login</button>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="text-center text-lg-start text-white">
+
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Delicias de la Cocina
+            </h6>
+            <p>
+              Nos dedicada a la cocina y gastronomía, y aquí ofrecemos a los usuarios un lugar donde encontrar una
+              amplia variedad de recetas y consejos para preparar deliciosos platos y postres en casa.
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              LINKS &Uacute;TILES
+            </h6>
+            <p>
+              <a class="text-white text-decoration-none" href="./../pages/contact-us.html">Contact us</a>
+            </p>
+            <p>
+              <a class="text-white text-decoration-none" href="./../pages/policies-cookies.html">Cookies</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="bi bi-envelope"></i> aeesppin@alu.upo.es</p>
+            <p><i class="bi bi-telephone"></i> +34 12345678</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-3">
+
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2023 Copyright
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+  </footer>
+
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h4 class="modal-title w-100 font-weight-bold">Login</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body mx-3">
+          <div class="mb-3">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail">
+          </div>
+          <div class="mb-3">
+            <label for="inputPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" class="btn bg--secondary" style="width: 100%;">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 

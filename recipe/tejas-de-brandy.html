@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Título de la página</title>
+    <link rel="stylesheet" href="./../styles.css">
+    <link rel="stylesheet" href="./recipe.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a href="./../index.html" class="navbar-brand text-white">Delicias de la Cocina</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <div class="dropdown">
+                            <a class="nav-item nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Recetas
+                            </a>
+
+                            <ul class="dropdown-menu bg--primary">
+                                <li><a class="dropdown-item text-white" href="./../recipes/cocidos.html">Cocidos</a>
+                                </li>
+                                <li><a class="dropdown-item text-white" href="./../recipes/snacks.html">Snacks</a></li>
+                                <li><a class="dropdown-item text-white" href="./../recipes/fitness.html">Fitness</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navbar-nav">
+                        <a type="button" class="nav-item nav-link text-white" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Login
+                        </a>
+                        <a href="./../pages/profile.html" class="nav-item nav-link text-white">Perfil</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- MAIN -->
+    <main class="min-vh-100">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-sm-6 col-12 product">
+                    <h3 style="margin-bottom: -20px">Fabada</h3>
+                    <div class="sticky-top pt-5">
+                        <img src="./../img/fabada.jpg" alt="Plato de fabada" class="w-100 img">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 info">
+                    <h6 class="nombre"></h6>
+                    <div class="pasos">
+                        <p><span class="fw-bold">Paso 1 -</span> Combine la mantequilla y el azúcar en el tazón de una
+                            batidora y luego agregue la harina y el sirope dorado. Mezclar hasta que se junte como una
+                            masa.</span>
+                        <p><span class="fw-bold">Paso 2 -</span> Retire la masa de la batidora y forme un cuadrado
+                            plano, cubra con plástico y deje en la nevera durante 1 hora.</span>
+                        <p><span class="fw-bold">Paso 3 -</span> Enrolle la mezcla en la mesa ligeramente espolvoreada
+                            con azúcar glas y cree una capa de 2 mm de espesor.</span>
+                        <p><span class="fw-bold">Paso 4 -</span> Corte discos de 12 cm y hornee en una bandeja forrada a
+                            170°C duranteaproximadamente 15-18 minutos. Asegúrese de que los discos estén extendidos en
+                            la bandeja, ya que se unirán al hornear.</span>
+                        <p><span class="fw-bold">Paso 5 -</span> Retire del horno y, tan pronto como dejen de burbujear,
+                            levante cada disco uno por uno y colóquelos sobre un vaso boca abajo para conseguir la forma
+                            de una taza.</span>
+                        <p><span class="fw-bold">Paso 6 -</span> Una vez establecidos, guárdelos en un recipiente
+                            hermético. Si los discos son demasiado firmes, devuélvalos al horno para que se ablanden
+                            antes de colocarlos en el vaso.</span>
+                        <p><span class="fw-bold">Paso 7 -</span> Derretir el chocolate o templarlo si contiene manteca
+                            de cacao. Para templar el chocolate, caliéntalo en un recipiente de plástico en el
+                            microondas en tandas de 30 segundos hasta tener un 50% de líquido y 50% de chocolate.
+                            Remueva vigorosamente sin calor adicional hasta que todo el chocolate se haya derretido. Si
+                            quedan algunos grumos, puede calentar suavemente el chocolate con un secador de pelo
+                            mientras remueve.</span>
+                        <p><span class="fw-bold">Paso 8 -</span> Cepille el interior de cada taza de pastelería con el
+                            chocolate derretido para sellarlo.</span>
+                        <p><span class="fw-bold">Paso 9 -</span> Para el relleno: Mezcle el mascarpone, el azúcar y la
+                            ralladura de limón a mano. Pique finamente las fresas en forma de dados.</span>
+                        <p><span class="fw-bold">Paso 10 -</span> En las tejas, incorpore capas de dados de fresas y
+                            relleno de mascarpone.</span>
+                        <p><span class="fw-bold">Paso 11 -</span> Para el montaje final: Coja un bloque de chocolate
+                            blanco de buena calidad y cree rizos de chocolate raspando un cuchillo a lo largo de la
+                            superficie del bloque. Adorne las tazas con las virutas de chocolate.</span>
+                        <p><span class="fw-bold">Paso 12 -</span> En este capítulo Kirsten Tibballs también prepara las
+                            recetas de: Donuts con pepitas de chocolate, merengue suizo y ganache de chocolate;
+                            Chocolatinas con perlitas caseras y Huevo de chocolate con acabado de granito.</span>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Ingredientes
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">105 g de mantequilla sin sal</li>
+                                        <li class="list-group-item">105 g de harina simple</li>
+                                        <li class="list-group-item">110 g de sirope dorado</li>
+                                        <li class="list-group-item">255 g de glas (confitería) de azúcar</li>
+                                        <li class="list-group-item">Cobertura de leche de buena calidad 200 g</li>
+                                        <li class="list-group-item">400 g mascarpone</li>
+                                        <li class="list-group-item">60 g de azúcar en polvo (confitería)</li>
+                                        <li class="list-group-item">Ralladura de limón </li>
+                                        <li class="list-group-item">250 g de fresas</li>
+                                        <li class="list-group-item">Bloque de chocolate blanco de buena calidad</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="text-center text-lg-start text-white">
+
+        <div class="container p-4 pb-0">
+            <section class="">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Delicias de la Cocina
+                        </h6>
+                        <p>
+                            Nos dedicada a la cocina y gastronomía, y aquí ofrecemos a los usuarios un lugar donde
+                            encontrar una
+                            amplia variedad de recetas y consejos para preparar deliciosos platos y postres en casa.
+                        </p>
+                    </div>
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            LINKS &Uacute;TILES
+                        </h6>
+                        <p>
+                            <a class="text-white text-decoration-none" href="./../pages/contact-us.html">Contact us</a>
+                        </p>
+                        <p>
+                            <a class="text-white text-decoration-none"
+                                href="./../pages/policies-cookies.html">Cookies</a>
+                        </p>
+                    </div>
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p><i class="bi bi-envelope"></i> aeesppin@alu.upo.es</p>
+                        <p><i class="bi bi-telephone"></i> +34 12345678</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="my-3">
+
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <div class="p-3">
+                            © 2023 Copyright
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+    </footer>
+
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Login</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body mx-3">
+                    <div class="mb-3">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword">
+                    </div>
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn bg--secondary" style="width: 100%;">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

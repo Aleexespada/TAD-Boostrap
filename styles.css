@@ -2,10 +2,11 @@ header, nav, footer, .bg--primary {
     background-color: #588b8b !important;
 }
 
-.dropdown-item:hover {
+.dropdown-item:hover, .dropdown-item:focus {
     color: black !important;
+    background-color: #ffffff !important;
+    z-index: 10 !important;
 }
-
 .bg--secondary {
     background-color: #f28f3b !important;
 }
